@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Titulo do Documento</title>
+    </head>
+    <body>
+        <!-- comentário do código-->
+        <h3><u>Exemplo de página HTML</u></h3>
+        <hr />
+        <img src="html5.png"/>
+        <hr />
+        Clique aqui: <a href="https://www.w3.org/" target="_blank" >w3c.org</a>
+        <hr />
+        Senha:
+        <input id="senha_id" name="senha" type="password">
+        <br />
+        
+        Data nascimento:
+        <input id="data_id" name="data" type="date">
+        <br />
+        Idade:
+        <input id="numero1_id" name="numero1" type="number">
+        <br />
+        Quantidade
+        <input id="numero2_id" name="numero2" type="range">
+        
+        <br/><hr/><br/>            
+        <!-- Rótulos em formulários -->
+        <label for="nome_id">Nome:</label>
+        <input type="text" name="nome" id="nome_id" />
+        
+        <br/><hr/><br/>
+         <!-- Textos longos -->
+        <label for="msg_id">Texto:</label>
+        <textarea id="msg_id" name="mensagem" rows="5" cols="50"></textarea>
+        
+        <br/><hr/><br/>
+         <!-- Caixa de verificação -->
+        <input id="jv_id" type="checkbox"
+               value="jv" name="lang" checked> Java    
+        <input id="ph_id" type="checkbox"
+               value="ph" name="lang" > PHP  
+        
+        <br/><hr/><br/>
+         <!-- Botões de Rádio -->
+        <input id="masc_id" type="radio"
+               value="Masculino" name="sexo" checked> Masculino    
+        <input id="fem_id" type="radio"
+               value="Feminino" name="sexo" > Feminino
+        
+        
+        <br/><hr/><br/>
+        <!-- Listas Drop-Down -->
+        <select id="estados_id" name="estado" multiple="multiple">
+            <optgroup label="Região Sudeste">
+                <option value="SP" selected>São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+                <option value="RS" selected>Rio Grande do Sul</option>
+                <option value="PR">Paraná</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="RN" selected>Rio Grande do Norte</option>
+                <option value="BA">Bahia</option>
+            </optgroup>
+        
+        </select>
+        
+         <br/><hr/><br/>
+        <!-- Botões de Comando -->   
+        <input id="botao_id" type="submit" value="enviar"/>
+        
+        <br/><hr/><br/>
+        <!-- Formulário -->   
+        <form action="/pasta/adduser.php" method="post">
+        
+        <p>
+            <label for="firstname">Primeiro nome:</label>
+            <input type="text" id="firstname"> <br/>
+            <label for="lastname">Último nome:</label>
+            <input type="text" id="lastname"> <br/>
+            <label for="email">email:</label>
+            <input type="text" id="email"> <br/>
+            <input type="radio" name="sex" value="M">Masculino <br/>
+            <input type="radio" name="sex" value="F">Feminino <br/>
+            <input type="submit" value="Enviar"><input type="reset">
+        </p>
+        
+        
+        </form>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
